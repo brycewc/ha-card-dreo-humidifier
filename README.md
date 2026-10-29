@@ -4,6 +4,11 @@ A Home Assistant Lovelace card for **Dreo humidifiers** exposed through [`hass-d
 
 It's a sibling of [ha-card-dyson-pure-humidify-cool](https://github.com/brycewc/ha-card-dyson-pure-humidify-cool) and shares its look and behavior.
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/brycewc/ha-card-dreo-humidifier/main/.github/images/card-collapsed.png" alt="Card with the controls collapsed" width="380">
+  <img src="https://raw.githubusercontent.com/brycewc/ha-card-dreo-humidifier/main/.github/images/card-expanded.png" alt="Card with the controls expanded" width="380">
+</p>
+
 ## Compatibility
 
 Built and tested on a Dreo 524S (DR-HHM004S) with `hass-dreo` 1.11.11. Other Dreo humidifiers (DR-HHM\*) are likely to work, but may expose different entities or modes. If you try one, `npm run test:live` reports any entity or attribute the card doesn't expect, and an issue with that output is welcome.
