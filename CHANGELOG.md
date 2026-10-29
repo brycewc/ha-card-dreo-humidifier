@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 - 2026-10-29
+
+### Fixed
+
+- The reading tiles are now the same height as the Dyson Humidify+Cool card's, so the two line up side by side.
+
 ## 1.0.0 - 2026-10-29
 
 First release of `custom:dreo-humidifier-card`, built for the Dreo 524S (DR-HHM004S) on `hass-dreo` 1.11.11.

@@ -234,9 +234,11 @@ export const cardStyles = css`
   .reading:active:not(:disabled) {
     border-radius: var(--dhc-corner-m);
   }
+  /* One text line tall, so the tiles match the Dyson card's, whose AQI tile has a text label here. */
   .reading .top {
     display: flex;
     align-items: center;
+    min-height: 1lh;
     gap: 6px;
     color: var(--dhc-on-surface-variant);
   }

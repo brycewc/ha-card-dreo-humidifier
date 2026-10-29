@@ -1,6 +1,6 @@
 {
   "name": "ha-card-dreo-humidifier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Home Assistant Lovelace card for the Dreo 524S (DR-HHM004S) humidifier via hass-dreo.",
   "license": "Apache-2.0",
