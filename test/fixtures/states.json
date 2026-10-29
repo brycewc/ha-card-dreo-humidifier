@@ -1,0 +1,233 @@
+[
+  {
+    "entity_id": "binary_sensor.office_humidifier_water_empty",
+    "state": "off",
+    "attributes": {
+      "water_level": "ok",
+      "water_level_percent": null,
+      "device_class": "problem",
+      "icon": "mdi:water-check",
+      "friendly_name": "Office Humidifier Water Empty"
+    },
+    "last_changed": "2026-10-29T17:03:13.437435+00:00",
+    "last_reported": "2026-10-29T22:18:27.838540+00:00",
+    "last_updated": "2026-10-29T17:03:13.437435+00:00"
+  },
+  {
+    "entity_id": "humidifier.office_humidifier",
+    "state": "on",
+    "attributes": {
+      "min_humidity": 30,
+      "max_humidity": 90,
+      "available_modes": [
+        "normal",
+        "auto",
+        "sleep"
+      ],
+      "current_humidity": 56,
+      "humidity": 55,
+      "mode": "auto",
+      "friendly_name": "Office Humidifier",
+      "supported_features": 1
+    },
+    "last_changed": "2026-10-29T17:03:13.454516+00:00",
+    "last_reported": "2026-10-29T22:21:52.864094+00:00",
+    "last_updated": "2026-10-29T22:21:52.864094+00:00"
+  },
+  {
+    "entity_id": "light.office_humidifier_ambient_light",
+    "state": "on",
+    "attributes": {
+      "supported_color_modes": [
+        "onoff"
+      ],
+      "color_mode": "onoff",
+      "icon": "mdi:lightbulb",
+      "friendly_name": "Office Humidifier Ambient Light",
+      "supported_features": 0
+    },
+    "last_changed": "2026-10-29T17:03:13.445908+00:00",
+    "last_reported": "2026-10-29T22:18:27.840437+00:00",
+    "last_updated": "2026-10-29T17:03:13.445908+00:00"
+  },
+  {
+    "entity_id": "number.office_humidifier_fog_level",
+    "state": "2",
+    "attributes": {
+      "min": 0,
+      "max": 6,
+      "step": 1,
+      "mode": "auto",
+      "icon": "mdi:weather-fog",
+      "friendly_name": "Office Humidifier Fog Level"
+    },
+    "last_changed": "2026-10-29T22:21:04.953537+00:00",
+    "last_reported": "2026-10-29T22:21:52.863144+00:00",
+    "last_updated": "2026-10-29T22:21:04.953537+00:00"
+  },
+  {
+    "entity_id": "number.office_humidifier_humlight_high",
+    "state": "60",
+    "attributes": {
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "mode": "auto",
+      "icon": "mdi:water-percent",
+      "friendly_name": "Office Humidifier Ambient Light Humidity High Threshold"
+    },
+    "last_changed": "2026-10-29T17:03:13.452419+00:00",
+    "last_reported": "2026-10-29T22:18:27.841355+00:00",
+    "last_updated": "2026-10-29T17:03:13.452419+00:00"
+  },
+  {
+    "entity_id": "number.office_humidifier_humlight_low",
+    "state": "30",
+    "attributes": {
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "mode": "auto",
+      "icon": "mdi:water-percent",
+      "friendly_name": "Office Humidifier Ambient Light Humidity Low Threshold"
+    },
+    "last_changed": "2026-10-29T17:03:13.451607+00:00",
+    "last_reported": "2026-10-29T22:18:27.841147+00:00",
+    "last_updated": "2026-10-29T17:03:13.451607+00:00"
+  },
+  {
+    "entity_id": "number.office_humidifier_sleep_target_humidity",
+    "state": "55",
+    "attributes": {
+      "min": 30,
+      "max": 90,
+      "step": 1,
+      "mode": "auto",
+      "icon": "mdi:water-percent",
+      "friendly_name": "Office Humidifier Sleep Target Humidity"
+    },
+    "last_changed": "2026-10-29T17:03:13.450686+00:00",
+    "last_reported": "2026-10-29T22:18:27.840919+00:00",
+    "last_updated": "2026-10-29T17:03:13.450686+00:00"
+  },
+  {
+    "entity_id": "select.office_humidifier_mist_level",
+    "state": "low",
+    "attributes": {
+      "options": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "icon": "mdi:weather-windy",
+      "friendly_name": "Office Humidifier Mist Level"
+    },
+    "last_changed": "2026-10-29T22:21:04.957575+00:00",
+    "last_reported": "2026-10-29T22:21:52.864931+00:00",
+    "last_updated": "2026-10-29T22:21:04.957575+00:00"
+  },
+  {
+    "entity_id": "sensor.office_humidifier_filter_active",
+    "state": "active",
+    "attributes": {
+      "options": [
+        "active",
+        "inactive"
+      ],
+      "device_class": "enum",
+      "icon": "mdi:filter-check",
+      "friendly_name": "Office Humidifier Filter Active"
+    },
+    "last_changed": "2026-10-29T17:03:13.442834+00:00",
+    "last_reported": "2026-10-29T22:18:27.839950+00:00",
+    "last_updated": "2026-10-29T17:03:13.442834+00:00"
+  },
+  {
+    "entity_id": "sensor.office_humidifier_filter_life",
+    "state": "85",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "icon": "mdi:air-filter",
+      "friendly_name": "Office Humidifier Filter Life"
+    },
+    "last_changed": "2026-10-29T17:03:13.441987+00:00",
+    "last_reported": "2026-10-29T22:18:27.839736+00:00",
+    "last_updated": "2026-10-29T17:03:13.441987+00:00"
+  },
+  {
+    "entity_id": "sensor.office_humidifier_humidity",
+    "state": "56",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "%",
+      "device_class": "humidity",
+      "friendly_name": "Office Humidifier Humidity"
+    },
+    "last_changed": "2026-10-29T22:21:52.860974+00:00",
+    "last_reported": "2026-10-29T22:21:52.860974+00:00",
+    "last_updated": "2026-10-29T22:21:52.860974+00:00"
+  },
+  {
+    "entity_id": "sensor.office_humidifier_target_humidity_reached",
+    "state": "yes",
+    "attributes": {
+      "options": [
+        "yes",
+        "no"
+      ],
+      "device_class": "enum",
+      "icon": "mdi:water-check",
+      "friendly_name": "Office Humidifier Target Humidity Reached"
+    },
+    "last_changed": "2026-10-29T22:21:52.862372+00:00",
+    "last_reported": "2026-10-29T22:21:52.862372+00:00",
+    "last_updated": "2026-10-29T22:21:52.862372+00:00"
+  },
+  {
+    "entity_id": "sensor.office_humidifier_use_since_cleaning",
+    "state": "28",
+    "attributes": {
+      "state_class": "measurement",
+      "unit_of_measurement": "h",
+      "device_class": "duration",
+      "friendly_name": "Office Humidifier Use Since Cleaning"
+    },
+    "last_changed": "2026-10-29T22:07:12.338349+00:00",
+    "last_reported": "2026-10-29T22:18:27.839501+00:00",
+    "last_updated": "2026-10-29T22:07:12.338349+00:00"
+  },
+  {
+    "entity_id": "switch.office_humidifier_display",
+    "state": "on",
+    "attributes": {
+      "icon": "mdi:led-on",
+      "friendly_name": "Office Humidifier Display"
+    },
+    "last_changed": "2026-10-29T17:03:13.430340+00:00",
+    "last_reported": "2026-10-29T22:18:27.837973+00:00",
+    "last_updated": "2026-10-29T17:03:13.430340+00:00"
+  },
+  {
+    "entity_id": "switch.office_humidifier_panel_sound",
+    "state": "off",
+    "attributes": {
+      "icon": "mdi:volume-high",
+      "friendly_name": "Office Humidifier Panel Sound"
+    },
+    "last_changed": "2026-10-29T17:03:13.429579+00:00",
+    "last_reported": "2026-10-29T22:18:27.836180+00:00",
+    "last_updated": "2026-10-29T17:03:13.429579+00:00"
+  },
+  {
+    "entity_id": "switch.office_humidifier_schedule",
+    "state": "off",
+    "attributes": {
+      "icon": "mdi:calendar",
+      "friendly_name": "Office Humidifier Schedule"
+    },
+    "last_changed": "2026-10-29T17:03:13.431214+00:00",
+    "last_reported": "2026-10-29T22:18:27.838190+00:00",
+    "last_updated": "2026-10-29T17:03:13.431214+00:00"
+  }
+]

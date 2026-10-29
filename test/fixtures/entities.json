@@ -1,0 +1,107 @@
+{
+  "humidifierEntity": "humidifier.office_humidifier",
+  "device": {
+    "id": "0123456789abcdef0123456789abcdef",
+    "name": "Office Humidifier",
+    "name_by_user": null,
+    "model": "DR-HHM004S"
+  },
+  "entities": [
+    {
+      "entity_id": "binary_sensor.office_humidifier_water_empty",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "water_empty",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "humidifier.office_humidifier",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "light.office_humidifier_ambient_light",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "ambient_light",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "number.office_humidifier_fog_level",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "fog_level",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "number.office_humidifier_humlight_high",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "ambient_light_threshold_high",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "number.office_humidifier_humlight_low",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "ambient_light_threshold_low",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "number.office_humidifier_sleep_target_humidity",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "sleep_target_humidity",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "select.office_humidifier_mist_level",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "mist_level",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "sensor.office_humidifier_filter_active",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "filter_active",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "sensor.office_humidifier_filter_life",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "filter_life",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "sensor.office_humidifier_humidity",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "humidity",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "sensor.office_humidifier_target_humidity_reached",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "target_humidity_reached",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "sensor.office_humidifier_use_since_cleaning",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "use_hours_hm",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "switch.office_humidifier_display",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "display_light",
+      "platform": "dreo",
+      "name": "Display"
+    },
+    {
+      "entity_id": "switch.office_humidifier_panel_sound",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "panel_sound",
+      "platform": "dreo"
+    },
+    {
+      "entity_id": "switch.office_humidifier_schedule",
+      "device_id": "0123456789abcdef0123456789abcdef",
+      "translation_key": "scheon",
+      "platform": "dreo"
+    }
+  ]
+}

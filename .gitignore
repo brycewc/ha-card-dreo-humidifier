@@ -6,4 +6,3 @@ dist-dev/
 .env
 .env.*
 !.env.example
-test/
