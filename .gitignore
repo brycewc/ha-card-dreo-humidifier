@@ -1,0 +1,9 @@
+node_modules/
+dist/
+dist-dev/
+.DS_Store
+*.pyc
+.env
+.env.*
+!.env.example
+test/

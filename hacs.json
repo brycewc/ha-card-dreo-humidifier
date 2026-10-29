@@ -1,0 +1,6 @@
+{
+  "name": "Dreo Humidifier Card",
+  "filename": "dreo-humidifier-card.js",
+  "render_readme": true,
+  "homeassistant": "2024.11.0"
+}
